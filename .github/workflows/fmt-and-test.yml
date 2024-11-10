@@ -8,7 +8,7 @@ on:
 
 jobs:
   format-check:
-    runs-on: alpine:3.20.3
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v3
